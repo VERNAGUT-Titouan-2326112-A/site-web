@@ -13,6 +13,7 @@ label:after {
 	position: absolute;
 	background: linear-gradient(120deg,orangered,orange); 
 	border-radius: 20px;
+	z-index: 40;
 }
 input {
 	visibility: hidden;
@@ -107,7 +108,7 @@ nav{
 	 background-color: skyblue;
 }
 ul{
-	 style="display: flex;
+	 display: flex;
 	 justify-content: space-between;
 	 padding: 0 1em;
 	 margin: 0; 
