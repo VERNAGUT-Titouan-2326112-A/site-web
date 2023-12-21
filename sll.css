@@ -7,6 +7,7 @@ label {
   box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4); /**/
   top: -750px; /*positionnemnt*/
   left: 1200px; /*positionnement*/
+  margin: -20px;
 }
 label:after {
 	content: "";
@@ -72,13 +73,24 @@ div.midbox{
 	vertical-align: top;
 	height: 350px;
 }
+div.bellowbox{
+	background-color: #5068a9;
+	vertical-align: top;
+	height: 350px;
+	width: 1350px;
+	margin: 12px;
+
+}
 img{
 	 float: left;
 	 margin: 5px;
 	 border-radius: 40%;
 }
-iframe{
+iframe.ll{
 	display: block;
 	margin: auto;
 	
+}
+iframe{
+	margin: 20px;
 }
