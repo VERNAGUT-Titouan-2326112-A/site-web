@@ -1,0 +1,33 @@
+body{
+  background: #f1fff1;
+}
+h1{
+  color: #3a316e;
+}
+P.bb{
+  color: #6DA5C0;
+}
+p{
+  color: whitesmoke;
+}
+tr{
+	color : whitesmoke ;
+} 
+table {
+  background-color: #485791 ;
+}
+a{
+  
+  background-color: #1B3358;
+  color: whitesmoke;
+}
+a:hover{
+  background-color: whitesmoke;
+  color: #1B3358;
+}
+div.gg{
+  background-color:  #485791;
+}
+#rain{
+visibility: hidden;
+}

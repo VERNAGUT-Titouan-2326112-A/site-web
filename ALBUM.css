@@ -1,0 +1,58 @@
+body{
+  background-color: #f1fff1;
+}
+h1{
+  color: #55829c;
+}
+P{
+  color: whitesmoke;
+}
+tr{
+	color : whitesmoke ;
+}
+table {
+  background-color: #485791 ;
+  width: 55%;
+  border-collapse: collapse;
+  border: 3px solid black;
+  caption-side: bottom;
+  font-family: cursive;
+}
+
+td{
+     border: 3px solid black;
+}
+
+
+a.bbb{
+display: inline-block;
+  list-style-type: none;
+  padding: 0.5%;
+}
+
+a{
+  background-color: #1B3358;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0.5px; 
+}
+a:hover{
+  background-color: whitesmoke;
+  color: #1B3358;
+  transition: 0.5s;
+}
+
+div{
+  display: inline-block;
+  width: 48%;
+}
+div.gg{
+  background-color:  #485791;
+  vertical-align: top;
+  height: 295px;
+}
+
+img{
+  border-radius: 50%;
+  float: right;
+}

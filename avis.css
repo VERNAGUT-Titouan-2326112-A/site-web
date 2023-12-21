@@ -1,0 +1,61 @@
+body{
+	background: black;
+	background-image: url("lune.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+h1{
+	color: whitesmoke;
+	text-align: center;
+	top: 0;
+	left: 0;
+	position: sticky;
+}
+div.bbb{
+background: linear-gradient(120deg,darkgrey,white);
+width: 450px;
+height: 200px;
+position: sticky;
+left: 35%;
+top: 10%;
+}
+div.hh{
+	background-color: darkgrey;
+	width: 1450px;
+	
+}
+a{
+display: inline-block;
+list-style-type: none;
+position: sticky;
+}
+a.nn{
+  background-color: darkgrey;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px;
+  left: 50%;
+}
+a.nn:hover{
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.5s;
+}
+a{
+  background-color: darkgrey;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover{
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.5s;
+}
+footer{
+	background: grey;
+	padding: 25px;
+}
+h2,p{
+	text-align: center;
+}

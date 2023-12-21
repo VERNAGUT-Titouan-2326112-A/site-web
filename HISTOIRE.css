@@ -1,0 +1,49 @@
+body{
+	background-color: #dddddd;
+}
+p{
+	color :  whitesmoke;
+}
+h1{
+	color :  #28385e;
+}
+div{
+	display: inline-block;
+	width: 48%;
+}
+div.global{
+	background-color:  #516c8d;
+	vertical-align: top;
+	height: 380px;
+}
+div.jeunesse{
+	background-color:  #516c8d;
+	vertical-align: top;
+	height: 380px;
+}
+a{
+	display: inline-block;
+	list-style-type: none;
+}	
+a{
+	
+	background-color:  #516c8d;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 8px;
+
+	
+}
+a:hover{
+	background-color: whitesmoke;
+	color: #1B3358;
+	transition: 0.5s;
+}
+img.hj{
+  border-radius: 50%;
+  float: right;
+}
+img.ll{
+	border-radius: 50%;
+    float: left;
+}
