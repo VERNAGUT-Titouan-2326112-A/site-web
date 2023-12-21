@@ -20,10 +20,12 @@ input {
 }
 input:checked + label {
 	background: #242424;
+		z-index: 40;
 }
 input:checked + label:after {
 	transform: translateX(100%);
 	background: linear-gradient(120deg,darkgrey,black);
+		z-index: 40;
 }
 label, label:after {
 	transition: 0.3s
@@ -80,7 +82,12 @@ iframe.ll{
 iframe{
 	margin: 20px;
 }
-
+div.gg{
+	 display: flex; 
+	 flex-wrap: wrap;
+	 width: 100%;
+	 justify-content: space-evenly;
+}
 #rain {
 	height : 100vh;
 	width : 100vw;
