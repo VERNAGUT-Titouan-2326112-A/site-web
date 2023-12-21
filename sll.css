@@ -55,6 +55,8 @@ div{
 	background-color: #5068a9;
 	vertical-align: top;
 	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: column;
 	
 }
 div.bellowbox{
@@ -89,4 +91,25 @@ iframe{
 	opacity : 30%;
 	left : 0;
 	top : 0;
+}
+section{
+	display: flex; 
+	justify-content: space-between;
+}
+body{
+	margin: 0;
+}
+header{
+	position: sticky;
+	top:0;
+}
+nav{
+	 background-color: skyblue;
+}
+ul{
+	 style="display: flex;
+	 justify-content: space-between;
+	 padding: 0 1em;
+	 margin: 0; 
+	 list-style-type: none;
 }
