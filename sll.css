@@ -1,37 +1,31 @@
 label {
-  width:90px;
-  height:40px;
-  position: relative; /*position*/
-  display: block;  
-  border-radius: 100px;
-  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4); /**/
-  top: -750px; /*positionnemnt*/
-  left: 1200px; /*positionnement*/
-  margin: -20px;
+	width:90px;
+	height:40px;
+	display: block;
+	border-radius: 100px;
+	box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
 }
+
 label:after {
 	content: "";
-  width:40px;
-  height: 40px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: linear-gradient(120deg,orangered,orange); 
-  border-radius: 20px;
+	width:40px;
+	height: 40px;
+	position: absolute;
+	background: linear-gradient(120deg,orangered,orange); 
+	border-radius: 20px;
 }
 input {
-  visibility: hidden;
+	visibility: hidden;
 }
 input:checked + label {
-  background: #242424;
+	background: #242424;
 }
 input:checked + label:after {
-  left:10px;
-  transform: translateX(100%);
-  background: linear-gradient(120deg,darkgrey,black);
+	transform: translateX(100%);
+	background: linear-gradient(120deg,darkgrey,black);
 }
 label, label:after {
-  transition: 0.3s
+	transition: 0.3s
 }
 a{
 	display: inline-block;
@@ -56,36 +50,23 @@ div{
 	width: 40%;
 	border-radius: 5%;	
 }
-div.rightbox{
-	background-color: #5068a9;
-	vertical-align: top;
-	height: 350px;
-	
-}
-div.leftbox{
-	background-color: #5068a9;
-	vertical-align: top;
-	height: 350px;
 
-}
-div.midbox{
+.midbox{
 	background-color: #5068a9;
 	vertical-align: top;
-	height: 350px;
+	padding: 0.5em 1em;
+	
 }
 div.bellowbox{
 	background-color: #5068a9;
 	vertical-align: top;
-	height: 350px;
-	width: 1350px;
-	margin: 12px;
-
+	width: 100%;
 
 }
 img{
-	 float: left;
-	 margin: 5px;
-	 border-radius: 40%;
+	float: left;
+	margin: 5px;
+	border-radius: 40%;
 }
 iframe.ll{
 	display: block;
@@ -95,4 +76,17 @@ iframe.ll{
 }
 iframe{
 	margin: 20px;
+}
+
+#rain {
+	height : 100vh;
+	width : 100vw;
+	object-fit : cover;
+	position : absolute;
+	mix-blend-mode : lighten;
+	object-fit : cover;
+	object-fit : cover;
+	opacity : 30%;
+	left : 0;
+	top : 0;
 }

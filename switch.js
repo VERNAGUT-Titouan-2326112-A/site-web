@@ -1,7 +1,8 @@
 let button = document.querySelector("#switchColor");
 let checkbox = document.querySelector("#darkmode-toggle");
 
-function switchCssFile() {
+checkbox.addEventListener("change", (elem) => {
+	console.log(elem.checked);
 	let baliseStyle = document.querySelector("#colorCssFile");
 
 	if (baliseStyle.getAttribute("href") === "light.css") {
@@ -10,7 +11,4 @@ function switchCssFile() {
 	}
 
 	baliseStyle.setAttribute("href", "light.css");
-}
-
-
-checkbox.addEventListener("change", switchCssFile);
+});

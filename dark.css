@@ -4,19 +4,7 @@ background-repeat : no-repeat;
 background-size : cover;
 }
 #rain {
-height : 100vh;
-width : 100vw;
-object-fit : cover;
-position : fixed;
-mix-blend-mode : lighten;
-object-fit : cover;
-object-fit : cover;
-opacity : 30%;
-left : 0px;
-right : 0px;
-top : 0px;
-bottom : 0px;
-
+visibility: visible;
 }
 h1 {
 color : #6DA5C0;
