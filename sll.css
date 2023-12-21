@@ -80,6 +80,7 @@ div.bellowbox{
 	width: 1350px;
 	margin: 12px;
 
+
 }
 img{
 	 float: left;
@@ -89,6 +90,7 @@ img{
 iframe.ll{
 	display: block;
 	margin: auto;
+	top: 50px;
 	
 }
 iframe{
