@@ -31,6 +31,13 @@ input:checked + label:after {
 label, label:after {
 	transition: 0.3s
 }
+a.po{
+	list-style-type: none;
+	display: block;
+  margin: auto;
+  background-color: #5068a9;
+  border-radius: 40%;
+}
 a{
 	display: inline-block;
 	list-style-type: none;
