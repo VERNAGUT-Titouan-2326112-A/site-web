@@ -13,19 +13,20 @@ label:after {
 	position: absolute;
 	background: linear-gradient(120deg,orangered,orange); 
 	border-radius: 20px;
-	z-index: 40;
+	
 }
 input {
-	visibility: hidden;
+visibility: hidden;
+
 }
 input:checked + label {
 	background: #242424;
-		z-index: 40;
+
 }
 input:checked + label:after {
-	transform: translateX(100%);
+	transform: translateX(125%);
 	background: linear-gradient(120deg,darkgrey,black);
-		z-index: 40;
+
 }
 label, label:after {
 	transition: 0.3s
@@ -51,7 +52,7 @@ div.leftbox{
 div{
 	display: inline-block;
 	width: 40%;
-	border-radius: 5%;	
+	
 }
 
 .midbox{
@@ -60,6 +61,7 @@ div{
 	padding: 0.5em 1em;
 	display: flex;
 	flex-direction: column;
+	margin: 5px;
 	
 }
 div.bellowbox{
@@ -69,6 +71,11 @@ div.bellowbox{
 
 }
 img{
+	
+	display: block;
+  margin: auto;
+}
+img.nn{
 	float: left;
 	margin: 5px;
 	border-radius: 40%;
@@ -89,14 +96,11 @@ div.gg{
 	 justify-content: space-evenly;
 }
 #rain {
-	height : 100vh;
+	height : 130vh;
 	width : 100vw;
-	object-fit : cover;
 	position : absolute;
 	mix-blend-mode : lighten;
-	object-fit : cover;
-	object-fit : cover;
-	opacity : 30%;
+	opacity : 10%;
 	left : 0;
 	top : 0;
 }
@@ -104,8 +108,10 @@ section{
 	display: flex; 
 	justify-content: space-between;
 }
+
 body{
 	margin: 0;
+
 }
 header{
 	position: sticky;
@@ -120,4 +126,5 @@ ul{
 	 padding: 0 1em;
 	 margin: 0; 
 	 list-style-type: none;
+	 	z-index: 40;
 }

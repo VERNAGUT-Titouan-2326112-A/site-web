@@ -1,4 +1,3 @@
-let button = document.querySelector("#switchColor");
 let checkbox = document.querySelector("#darkmode-toggle");
 
 checkbox.addEventListener("change", (elem) => {
