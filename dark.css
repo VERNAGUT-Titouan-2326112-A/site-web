@@ -1,35 +1,33 @@
 body {
-background-image : url("5940110865_e5f6db708a_b.jpg");
-background-repeat : no-repeat;
-background-size : cover;
+	background-image : url("5940110865_e5f6db708a_b.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
 
 }
 #rain {
-visibility: visible;
+	visibility: visible;
 }
 h1 {
-color : #6DA5C0;
+	color : #6DA5C0;
 }
 P {
-color : whitesmoke;
+	color : whitesmoke;
 }
 a {
-background-color : #1B3358;
-color : whitesmoke;
+	background-color : #1B3358;
+	color : whitesmoke;
 }
 a:hover {
-background-color : whitesmoke;
-color : #1B3358;
+	background-color : whitesmoke;
+	color : #1B3358;
 }
 div.gg {
-background-color : #485791;
+	background-color : #485791;
 }
 nav{
-	 background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/305447397_384382340558713_3108090643487903762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=783fdb&_nc_ohc=CAEV_UnpNg8AX-FvbR0&_nc_ht=scontent-cdg4-1.xx&oh=00_AfDvdMikYe5-3MyDyImV4cr5qkOOJuZYouTFtM3b7o2rpA&oe=658A1908") ;
-
-
-	 background-position: center;
-	 	 background-position-y: -280px;
-	 background-repeat : no-repeat;
+	background-image: url(image.jpg) ;
+	background-position: center;
+	background-position-y: -280px;
+	background-repeat : no-repeat;
 	background-size : cover;
 }
