@@ -107,8 +107,8 @@ nav{
 ul{
 	 display: flex;
 	 justify-content: space-between;
-	 padding: 0 1em;
+	 padding: 0 1em 0.5em 0;
 	 margin: 0; 
 	 list-style-type: none;
-	 	z-index: 40;
+	
 }
