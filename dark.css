@@ -2,10 +2,11 @@ body {
 	background-image : url("5940110865_e5f6db708a_b.jpg");
 	background-repeat : no-repeat;
 	background-size : cover;
-
+	background-color: black;
 }
 #rain {
 	visibility: visible;
+	z-index: -1;
 }
 h1 {
 	color : #6DA5C0;
