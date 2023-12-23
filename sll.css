@@ -86,8 +86,8 @@ div.gg{
 	position : absolute;
 	mix-blend-mode : lighten;
 	opacity : 40%;
-	left : 0;
-	top : 0;
+	left : 0px;
+	top : 0px;
 }
 section{
 	display: flex; 

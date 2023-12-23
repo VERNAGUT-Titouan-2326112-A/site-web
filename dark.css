@@ -7,6 +7,8 @@ body {
 #rain {
 	visibility: visible;
 	z-index: -1;
+	top: 0px;
+	left: 0px;
 }
 h1 {
 	color : #6DA5C0;
