@@ -10,6 +10,7 @@ h1{
 	top: 0;
 	left: 0;
 	position: sticky;
+	padding: 30px;
 }
 div.bbb{
 background: linear-gradient(120deg,darkgrey,white);
@@ -69,9 +70,10 @@ body{
 header{
 	position: sticky;
 	top:0;
+	padding: 5px;
 }
 nav{
-	 background-color: skyblue;
+	 background-color: grey;
 }
 ul{
 	 display: flex;
