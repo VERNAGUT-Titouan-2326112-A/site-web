@@ -11,16 +11,8 @@ div{
 	display: inline-block;
 	width: 48%;
 }
-div.global{
-	background-color:  #516c8d;
-	vertical-align: top;
-	height: 380px;
-}
-div.jeunesse{
-	background-color:  #516c8d;
-	vertical-align: top;
-	height: 380px;
-}
+
+
 a{
 	display: inline-block;
 	list-style-type: none;
@@ -67,4 +59,18 @@ ul{
 	 padding: 0 1em;
 	 margin: 0; 
 	 list-style-type: none;
+}
+section{
+	display: flex; 
+	justify-content: space-between;
+}
+div.jeunesse{
+	background-color:  #516c8d;
+	vertical-align: top;
+	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 5px;
+	width: 50%;
 }

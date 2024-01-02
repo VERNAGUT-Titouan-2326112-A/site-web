@@ -12,15 +12,21 @@ tr{
 }
 table {
   background-color: #485791 ;
-  width: 55%;
+  width: 100%;
   border-collapse: collapse;
   border: 3px solid black;
   caption-side: bottom;
   font-family: cursive;
-}
 
+}
+div.cen{
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
 td{
      border: 3px solid black;
+     padding: 0.5em;
 }
 
 
@@ -34,7 +40,7 @@ a{
   background-color: #1B3358;
   color: whitesmoke;
   text-decoration: none;
-  padding: 0.5px; 
+  padding: 8px; 
 }
 a:hover{
   background-color: whitesmoke;
@@ -49,12 +55,12 @@ div{
 div.gg{
   background-color:  #485791;
   vertical-align: top;
-  height: 295px;
+  width: 97%;
 }
 
 img{
   border-radius: 50%;
-  float: right;
+  float: left;
 }
 header{
   position: sticky;
@@ -71,4 +77,13 @@ ul{
 
    list-style-type: none;
   
+}
+.gg{
+  background-color: #5068a9;
+  vertical-align: top;
+  padding: 0.5em 1em;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
