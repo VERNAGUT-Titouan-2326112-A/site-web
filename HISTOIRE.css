@@ -63,6 +63,7 @@ ul{
 section{
 	display: flex; 
 	justify-content: space-between;
+	
 }
 div.jeunesse{
 	background-color:  #516c8d;
@@ -72,5 +73,4 @@ div.jeunesse{
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 5px;
-	width: 50%;
-}
+	}
