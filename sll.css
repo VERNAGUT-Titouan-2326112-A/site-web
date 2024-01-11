@@ -92,6 +92,7 @@ section{
 	display: flex; 
 	justify-content: space-between;
 	flex-wrap: wrap;
+	
 }
 
 body{
@@ -112,4 +113,9 @@ ul{
 	 margin: 0; 
 	 list-style-type: none;
 	
+}
+@media screen and (max-width: 64em){
+	section{
+		font-size: 25px;
+	}
 }
