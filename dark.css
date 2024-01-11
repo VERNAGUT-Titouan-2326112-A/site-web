@@ -27,13 +27,7 @@ a:hover {
 div.gg {
 	background-color : #485791;
 }
-nav{
-	background-image: url(image.jpg) ;
-	background-position: center;
-	background-position-y: -280px;
-	background-repeat : no-repeat;
-	background-size : cover;
-}
+
 div.midbox{
 	background-color: #393F3D;
 }
