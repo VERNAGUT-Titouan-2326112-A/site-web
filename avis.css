@@ -3,6 +3,7 @@ body{
 	background-image: url("lune.jpg");
 	background-repeat : no-repeat;
 	background-size : cover;
+	margin: 0;
 }
 h1{
 	color: whitesmoke;
@@ -22,7 +23,7 @@ top: 10%;
 }
 div.hh{
 	background-color: darkgrey;
-	width: 1450px;
+	width: 100%;
 	
 }
 a{
@@ -64,9 +65,7 @@ section{
 	display: flex; 
 	justify-content: space-between;
 }
-body{
-	margin: 0;
-}
+
 header{
 	position: sticky;
 	top:0;
