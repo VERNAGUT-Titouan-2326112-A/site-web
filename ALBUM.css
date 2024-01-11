@@ -7,6 +7,7 @@ h1{
 P{
   color: whitesmoke;
   text-align: justify;
+  padding: 1em;
 }
 tr{
 	color : whitesmoke ;
@@ -90,13 +91,9 @@ ul{
   flex-direction: column;
   flex-wrap: wrap;
 }
-@media(max-width: 700px){
-  section{
-    font-size: 25px;
-  }
-}
+
 @media(max-width: 700px){
   p{
-    font-size: 25px;
+    font-size: 50px;
   }
 }
