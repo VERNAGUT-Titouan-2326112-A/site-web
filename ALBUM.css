@@ -19,6 +19,9 @@ table {
   font-family: cursive;
 
 }
+p.ll{
+  text-align: justify;
+}
 div.cen{
   display: flex;
    flex-wrap: wrap;
@@ -61,6 +64,7 @@ div.gg{
 img{
   border-radius: 50%;
   float: left;
+  padding: 1em;
 }
 header{
   position: sticky;
