@@ -1,0 +1,43 @@
+nav{
+   background-color: skyblue;
+}
+ul{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 1em 0.5em 0;
+   margin: 0; 
+   list-style-type: none;
+  
+}
+
+.nav-hidden {
+   display: block;
+}
+
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+#openBtn {
+   display: none;
+}
+
+@media(max-width: 460px){
+ul{
+   justify-content: space-between;
+   list-style-type: none;
+   flex-direction: column;
+}
+
+.nav-hidden {
+   display: none;
+}
+
+#openBtn {
+   display: inline-block;
+}
+}
