@@ -5,7 +5,7 @@ h1{
   color: #55829c;
 }
 P{
-  color: whitesmoke;
+  color: whitesmoke; 
   text-align: justify;
   padding: 1em;
 }
@@ -69,9 +69,11 @@ img{
 header{
   position: sticky;
   top:0;
+  
 }
 nav{
    background-color: skyblue;
+   padding: 10px;
 }
 ul{
    display: flex;
